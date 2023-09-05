@@ -158,6 +158,12 @@ td{
 .my-footer{
     margin-top: 100px;
 }
+footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 40px;
+}
 @media screen and (max-width:768px){
     nav,.row-1,.row-2{
         flex-direction: column;
